@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# Data files
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.hdf5
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# 3D mesh and point cloud files (large binary data)
+*.ply
+*.obj
+*.stl
+*.glb
+*.gltf
+*.off
+
+# Rendered outputs
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
+# Logs
+*.log
+wandb/
+runs/
+logs/
+tensorboard/
+
+# Cached data
+cached_pointclouds/
+mesh_holes/
+test_meshes/
+predicted_meshes*/
+
+# Google Colab / Drive artifacts
+.colab/
+drive/
+
+# Objaverse cache
+.objaverse/

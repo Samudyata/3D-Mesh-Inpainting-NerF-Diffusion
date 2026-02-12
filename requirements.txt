@@ -1,0 +1,8 @@
+torch
+trimesh
+numpy
+matplotlib
+open3d
+gensim
+objaverse
+tqdm
